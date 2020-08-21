@@ -1,7 +1,7 @@
 
 $(function(){
    	//make connection
-	var socket = io.connect('54.85.172.144')
+	var socket = io.connect('https://chatt-ing.herokuapp.com/')
 
 	//buttons and inputs
 	var message = $("#message")
